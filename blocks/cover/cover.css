@@ -1,0 +1,34 @@
+.cover {
+  font-family: 'Inter',
+    'Segoe UI',
+    'Roboto',
+    'Helvetica',
+    'San Francisco',
+    'sans-serif';
+  color: #fff;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  width: 100%;
+  background-image: url(../../images/cover-trains.jpg);
+  background-color: #858585;
+  min-height: 62.5vw;
+  max-height: 30rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  align-items: center;
+  justify-items: center;
+}
+
+.cover:hover {
+  cursor: url(../../images/cursor-pointer.svg), pointer;
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    min-height: 740px;
+    max-width: 1184px;
+    max-height: 740px;
+  }
+}

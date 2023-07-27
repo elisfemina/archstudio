@@ -1,0 +1,7 @@
+.places {}
+
+@media (min-width: 1280px) {
+  .places__list {
+    max-width: 984px;
+  }
+}
