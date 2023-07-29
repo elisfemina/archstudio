@@ -24,6 +24,9 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
+/* Секция портфолио */
+@import url(../blocks/portfolio/portfolio.css);
+
 /* Секция intro "Чего мы там не видели?"  */
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);

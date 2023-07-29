@@ -1,5 +1,14 @@
 .header__logo-link {
   transition: .5s;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  /* text-align: center; */
+  margin: 0 auto 1rem;
+  max-width: 18rem;
+  text-transform: uppercase;
+  color: white;
 }
 
 .header__logo-link:hover {

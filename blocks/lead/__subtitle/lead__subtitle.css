@@ -1,18 +1,29 @@
 .lead__subtitle {
   font-style: normal;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.25;
-  text-align: center;
-  margin: 0 auto 2.5rem;
-  max-width: 18rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  text-align: left;
+  margin: auto;
+  max-width: 41rem;
+  list-style-type: none;
+  text-indent: -2rem;
+  list-style-position: outside;
+
 }
 
-@media (min-width: 768px) {
+.lead__subtitle>li::before {
+  content: "✎";
+  padding-right: 10px;
+  font-weight: normal;
+}
+
+
+/* @media (min-width: 768px) {
   .lead__subtitle {
     font-size: 1.875rem;
     line-height: 1.1612;
     margin: 0 auto 3.5rem;
     max-width: 40rem;
   }
-}
+} */
