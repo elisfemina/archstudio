@@ -2,8 +2,10 @@
   box-sizing: border-box;
   display: grid;
   width: 100%;
-  gap: 5px;
+  gap: 2px;
   grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(auto-fit, min(120px, 1fr)); */
+  justify-content: center;
 }
 
 /* @media (min-width: 768px) {

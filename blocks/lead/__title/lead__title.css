@@ -17,9 +17,5 @@
 @media (min-width: 768px) {
   .lead__title {
     font-size: 3rem;
-
-
-
-    max-width: 41rem;
   }
 }
