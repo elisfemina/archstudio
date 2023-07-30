@@ -1,8 +1,7 @@
 .photo-grid__wrap {
   position: relative;
   display: block;
-  border: 1px solid red;
-  /* min-height: 120px; */
+  /* border: 30px solid red; */
 }
 
 .photo-grid__wrap::after {
@@ -17,4 +16,6 @@
   left: 0;
   width: 100%;
   height: 100%;
+  display: inline-block;
+  overflow: hidden;
 }
