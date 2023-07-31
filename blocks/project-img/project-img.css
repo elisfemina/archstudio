@@ -1,0 +1,17 @@
+.project-img {
+  position: relative;
+  display: block;
+  transition: .3s;
+}
+
+.project-img::after {
+  content: '';
+  display: block;
+  padding-top: 75%;
+}
+
+.project-img:hover {
+  border: 1px solid #413f3f;
+  /* Ширина, вид и цвет рамки */
+
+}

@@ -1,7 +1,7 @@
 .lead__subtitle {
   font-style: normal;
-  font-weight: bold;
-  font-size: 1.25rem;
+  font-weight: 400;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: left;
   margin: auto;
@@ -9,7 +9,6 @@
   list-style-type: none;
   text-indent: -2rem;
   list-style-position: outside;
-
 }
 
 .lead__subtitle>li::before {
@@ -17,7 +16,6 @@
   padding-right: 10px;
   font-weight: normal;
 }
-
 
 /* @media (min-width: 768px) {
   .lead__subtitle {
