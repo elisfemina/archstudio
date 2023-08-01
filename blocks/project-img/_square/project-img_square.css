@@ -1,0 +1,5 @@
+.project-img_square::after {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}

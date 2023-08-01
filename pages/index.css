@@ -6,6 +6,7 @@
 @import url(../blocks/container/container.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/btn-back/btn-back.css);
+@import url(../blocks/sim-slider/sim-slider.css);
 
 /* Блок "header" */
 @import url(../blocks/header/header.css);
@@ -41,6 +42,8 @@
 @import url(../blocks/project-img/project-img.css);
 @import url(../blocks/project-img/__wrap/project-img__wrap.css);
 @import url(../blocks/project-img/__pic/project-img__pic.css);
+@import url(../blocks/project-img/_square/project-img_square.css);
+
 
 /* Секция project */
 @import url(../blocks/project/project.css);

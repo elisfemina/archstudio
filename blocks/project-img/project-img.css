@@ -7,11 +7,11 @@
 .project-img::after {
   content: '';
   display: block;
-  padding-top: 75%;
+  padding-top: 65%;
 }
 
 .project-img:hover {
-  border: 1px solid #413f3f;
+  border: 1px solid #2A2C2F;
   /* Ширина, вид и цвет рамки */
 
 }

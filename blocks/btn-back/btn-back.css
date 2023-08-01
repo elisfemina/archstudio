@@ -13,5 +13,15 @@
     'sans-serif';
   color: #fff;
   padding: 10px;
-  max-width: 200px;
+  max-width: 150px;
+  text-decoration: none;
+  transition: .2s linear;
+  /* Время изменения */
+}
+
+.btn-back:hover {
+  color: #1d0e0e;
+  /* Цвет текста */
+  background: #f66d52;
+  /* Цвет фона */
 }

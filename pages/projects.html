@@ -5,20 +5,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Студия архитектуры и дизайна Элис Фемины</title>
-  <link rel="shortcut icon" href="./images/russia-map-favicon.png" type="image/png" />
+  <title>Архитектурная и дизайн студия Элис Фемины</title>
+  <link rel="shortcut icon" href="../images/logo_favicon_EF.png" type="image/png" />
   <link rel="stylesheet" href="../pages/index.css" />
   <link rel="stylesheet" href="../index.html">
 </head>
 
 <body class="body">
-  <div class="page">
+  <section class="page">
 
     <!-- Блок "header" -->
     <header class="header page__header">
       <a class="header__logo-link" href="">
         <p>Elis Femina</p>
       </a>
+
     </header>
 
     <!-- Блок "content" -->
@@ -52,13 +53,71 @@
             <a class="btn-back" href="../index.html#int1">&#8592 вернуться</a>
             <section class="project-img">
               <div class="project-img__wrap">
-                <img class="project-img__pic" src="../images/int1.jpg" alt="Пейзаж небо и берёзки из окна поезда" />
+                <div class="sim-slider">
+                  <ul class="sim-slider-list">
+                    <li><img src="../images/int6.jpg" alt="screen"></li> <!-- это экран -->
+                    <li class="sim-slider-element"><img src="../images/int10.jpg" alt="1"></li>
+                    <li class="sim-slider-element"><img src="../images/int11.jpg" alt="2"></li>
+                    <li class="sim-slider-element"><img src="../images/int12.jpg" alt="N"></li>
+                  </ul>
+
+                  <div class="arrow-left"> <!-- Стрелки -->
+                    <div class="arrow-bg">
+                      <div class="arrow"></div>
+                    </div>
+                  </div>
+                  <div class="arrow-right">
+                    <div class="arrow-bg">
+                      <div class="arrow"></div>
+                    </div>
+                  </div>
+
+                  <!-- <div class="sim-slider-arrow-left"></div>
+                  <div class="sim-slider-arrow-right"></div> -->
+                  <div class="sim-slider-dots"></div>
+
+                </div>
+              </div>
+
+            </section>
+            <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quaerat blanditiis
+              sed quasi aut molestias pariatur eius ipsum voluptas, laudantium, laboriosam obcaecati recusandae harum
+              qui ullam, cumque rerum. Nesciunt, magnam!</p>
+          </section>
+          <div class="sim-slider">
+            <ul class="sim-slider-list">
+              <li><img src="../images/int6.jpg" alt="screen"></li> <!-- это экран -->
+              <li class="sim-slider-element"><img src="../images/int10.jpg" alt="1"></li>
+              <li class="sim-slider-element"><img src="../images/int11.jpg" alt="2"></li>
+              …
+              <li class="sim-slider-element"><img src="../images/int12.jpg" alt="N"></li>
+            </ul>
+
+            <div class="sim-slider-arrow-left"></div>
+            <div class="sim-slider-arrow-right"></div>
+            <div class="sim-slider-dots"></div>
+          </div>
+          <section class="project" id="int2">
+            <a class="btn-back" href="../index.html#int1">&#8592 вернуться</a>
+            <section class="project-img">
+              <div class="project-img__wrap">
+                <img class="project-img__pic" src="../images/int1.jpg" alt="интерьер гостиной" />
+              </div>
+              <div class="project-img__wrap">
+                <img class="project-img__pic" src="../images/int2.jpg" alt="интерьер гостиной" />
+              </div>
+              <div class="project-img__wrap">
+                <img class="project-img__pic" src="../images/int3.jpg" alt="интерьер гостиной" />
+              </div>
+              <div class="project-img__wrap">
+                <img class="project-img__pic" src="../images/int4.jpg" alt="интерьер гостиной" />
               </div>
             </section>
             <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quaerat blanditiis
               sed quasi aut molestias pariatur eius ipsum voluptas, laudantium, laboriosam obcaecati recusandae harum
               qui ullam, cumque rerum. Nesciunt, magnam!</p>
           </section>
+
         </section>
         <h3 class="portfolio__subtitle">Дизайн</h3>
       </section>
@@ -69,12 +128,17 @@
           &copy;
           <script type="text/javascript">
             document.write(new Date().getFullYear());
+
           </script>
           Элис Фемина
         </p>
       </footer>
     </main>
-  </div>
+  </section>
+  <!-- подключение слайдера -->
+  <script src="../scripts/sim-slider.js"></script>
+  <!-- вызов слайдера -->
+  <script>new Sim()</script>
 </body>
 
 </html>
