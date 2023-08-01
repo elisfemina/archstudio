@@ -49,8 +49,8 @@
         <h2 class="portfolio__title">Галерея проектов</h2>
         <h3 class="portfolio__subtitle">Архитектура</h3>
         <section class="projects-flow">
-          <section class="project" id="int1">
-            <a class="btn-back" href="../index.html#int1">&#8592 вернуться</a>
+          <section class="project" id="project1">
+            <a class="btn-back" href="../index.html#project1">&#8592 вернуться</a>
             <section class="project-img">
               <div class="project-img__wrap">
                 <div class="sim-slider">
@@ -84,39 +84,51 @@
               sed quasi aut molestias pariatur eius ipsum voluptas, laudantium, laboriosam obcaecati recusandae harum
               qui ullam, cumque rerum. Nesciunt, magnam!</p>
           </section>
-          <div class="sim-slider">
-            <ul class="sim-slider-list">
-              <li><img src="../images/int6.jpg" alt="screen"></li> <!-- это экран -->
-              <li class="sim-slider-element"><img src="../images/int10.jpg" alt="1"></li>
-              <li class="sim-slider-element"><img src="../images/int11.jpg" alt="2"></li>
-              …
-              <li class="sim-slider-element"><img src="../images/int12.jpg" alt="N"></li>
-            </ul>
-
-            <div class="sim-slider-arrow-left"></div>
-            <div class="sim-slider-arrow-right"></div>
-            <div class="sim-slider-dots"></div>
-          </div>
-          <section class="project" id="int2">
-            <a class="btn-back" href="../index.html#int1">&#8592 вернуться</a>
+          <section class="project" id="project2">
+            <a class="btn-back" href="../index.html#project2">&#8592 вернуться</a>
             <section class="project-img">
               <div class="project-img__wrap">
-                <img class="project-img__pic" src="../images/int1.jpg" alt="интерьер гостиной" />
+                <div class="sim-slider">
+                  <ul class="sim-slider-list">
+                    <li><img src="../images/projects-img/golf-room/golf-room1.jpg" alt="screen"></li> <!-- это экран -->
+                    <li class="sim-slider-element"><img src="../images/projects-img/golf-room/golf-room1.jpg" alt="1">
+                    </li>
+                    <li class="sim-slider-element"><img src="../images/projects-img/golf-room/golf-room2.jpg" alt="2">
+                    </li>
+                    <li class="sim-slider-element"><img src="../images/projects-img/golf-room/golf-room3.jpg" alt="N">
+                    </li>
+                    <li class="sim-slider-element"><img src="../images/projects-img/golf-room/golf-room4.jpg" alt="N">
+                    </li>
+                    <li class="sim-slider-element"><img src="../images/projects-img/golf-room/golf-room5.jpg" alt="N">
+                    </li>
+                    <li class="sim-slider-element"><img src="../images/projects-img/golf-room/golf-room6.jpg" alt="N">
+                    </li>
+                  </ul>
+
+                  <div class="arrow-left"> <!-- Стрелки -->
+                    <div class="arrow-bg">
+                      <div class="arrow"></div>
+                    </div>
+                  </div>
+                  <div class="arrow-right">
+                    <div class="arrow-bg">
+                      <div class="arrow"></div>
+                    </div>
+                  </div>
+
+                  <!-- <div class="sim-slider-arrow-left"></div>
+                            <div class="sim-slider-arrow-right"></div> -->
+                  <div class="sim-slider-dots"></div>
+
+                </div>
               </div>
-              <div class="project-img__wrap">
-                <img class="project-img__pic" src="../images/int2.jpg" alt="интерьер гостиной" />
-              </div>
-              <div class="project-img__wrap">
-                <img class="project-img__pic" src="../images/int3.jpg" alt="интерьер гостиной" />
-              </div>
-              <div class="project-img__wrap">
-                <img class="project-img__pic" src="../images/int4.jpg" alt="интерьер гостиной" />
-              </div>
+
             </section>
             <p class="project__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae quaerat blanditiis
               sed quasi aut molestias pariatur eius ipsum voluptas, laudantium, laboriosam obcaecati recusandae harum
               qui ullam, cumque rerum. Nesciunt, magnam!</p>
           </section>
+
 
         </section>
         <h3 class="portfolio__subtitle">Дизайн</h3>
@@ -138,7 +150,7 @@
   <!-- подключение слайдера -->
   <script src="../scripts/sim-slider.js"></script>
   <!-- вызов слайдера -->
-  <script>new Sim()</script>
+  <script>new Sim("project1"); new Sim("project2");</script>
 </body>
 
 </html>
