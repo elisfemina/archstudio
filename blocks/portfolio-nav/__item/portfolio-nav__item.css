@@ -1,0 +1,17 @@
+.portfolio-nav__item {
+display: grid;
+box-sizing: border-box;
+height: 38px;
+text-align: center;
+place-items: center;
+background-color: white;
+color: #2A2C2F;
+font-weight: 700;
+text-decoration: none;
+transition: .2s linear;
+}
+
+.portfolio-nav__item:hover {
+  background: #f66d52;
+  /* Цвет фона */
+}

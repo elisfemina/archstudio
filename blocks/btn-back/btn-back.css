@@ -1,16 +1,8 @@
 .btn-back {
   display: block;
-  font-style: normal;
-  font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
-  font-family: 'Raleway',
-    'Segoe UI',
-    'Roboto',
-    'Helvetica',
-    'San Francisco',
-    'sans-serif';
   color: #fff;
   padding: 10px;
   max-width: 150px;
