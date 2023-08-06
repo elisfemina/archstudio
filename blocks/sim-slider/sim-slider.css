@@ -67,7 +67,7 @@ div.sim-slider-dots {
   height: auto;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 12px;
   z-index: 3;
   text-align: center;
 }
