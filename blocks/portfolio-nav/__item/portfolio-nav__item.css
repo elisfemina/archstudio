@@ -9,6 +9,7 @@ color: #2A2C2F;
 font-weight: 700;
 text-decoration: none;
 transition: .2s linear;
+border-radius: 10px;
 }
 
 .portfolio-nav__item:hover {
