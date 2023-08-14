@@ -1,13 +1,3 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   max-width: 935px;
-  font-family: Raleway,
-    'Segoe UI',
-    'Roboto',
-    'Helvetica',
-    'San Francisco',
-    'sans-serif';
-  color: #fff;
 }

@@ -1,0 +1,8 @@
+.header-nav__item {
+  display: grid;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  place-items: center;
+  font-weight: 600;
+ }
