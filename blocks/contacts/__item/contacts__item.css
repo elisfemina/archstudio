@@ -1,11 +1,3 @@
 .contacts__item {
-  /* display: block; */
-  height: 24px;
-list-style-image: url(../../../images/icon-telegram.webp);
-padding-left: 30px;
-
-}
-
-.contacts__item::marker {
-
+  font-size: 18px;
 }

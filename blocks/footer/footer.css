@@ -1,20 +1,3 @@
 .footer {
-  font-family: 'Raleway',
-    'Segoe UI',
-    'Roboto',
-    'Helvetica',
-    'San Francisco',
-    'sans-serif';
-  color: #fff;
-  justify-self: start;
-  max-width: 935px;
-}
-
-@media (min-width: 768px) {
-  .footer {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-self: center;
-  }
+  width: 100%;
 }

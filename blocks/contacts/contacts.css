@@ -2,8 +2,8 @@
   line-height: 1.5;
   text-align: left;
   margin: auto;
-  max-width: 41rem;
+  /* max-width: 41rem; */
   list-style-type: none;
-  text-indent: -2rem;
-  list-style-position: outside;
+  /* text-indent: -2rem;
+  list-style-position: outside; */
 }
