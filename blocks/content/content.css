@@ -9,18 +9,5 @@
   -moz-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-
+margin-top: 30px;
 }
-
-/* @media (min-width: 768px) {
-  .content {
-    grid-row-gap: 5.5rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .content {
-    grid-row-gap: 5.75rem;
-  }
-} */

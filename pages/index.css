@@ -8,12 +8,18 @@
 @import url(../blocks/btn-back/btn-back.css);
 @import url(../blocks/sim-slider/sim-slider.css);
 
+/* Контакты */
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__item/contacts__item.css);
+@import url(../blocks/contacts/__link/contacts__link.css);
+
 /* Блок "header" */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__logo-link/header__logo-link.css);
 @import url(../blocks/header-nav/header-nav.css);
 @import url(../blocks/header-nav/__item/header-nav__item.css);
+@import url(../blocks/header-nav/__link/header-nav__link.css);
 @import url(../blocks/header/__logo-text/header__logo-text.css);
 
 
@@ -54,6 +60,4 @@
 
 /* footer  */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

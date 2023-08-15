@@ -4,10 +4,15 @@
   column-gap: 10px;
   transition: .5s;
   font-size: 1.5rem;
-  color: white;
+  color: var(--main-color);
   max-width: 300px;
   text-decoration: none;
-  margin: 1.5rem auto 1.5rem 1rem;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+
+
   place-items: center;
 }
 
