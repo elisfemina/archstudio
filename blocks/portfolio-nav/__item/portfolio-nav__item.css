@@ -7,7 +7,7 @@ place-items: center;
 color: #000;
 font-weight: 600;
 text-decoration: none;
-font-size: 18px;
+font-size: 1rem;
 
   transition: .2s;
     border-bottom: 2px solid #000;
@@ -15,4 +15,16 @@ font-size: 18px;
 
 .portfolio-nav__item:hover {
   border-bottom: 2px solid var(--main-color);
+}
+
+@media (min-width: 768px) {
+  .portfolio-nav__item {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio-nav__item {
+    font-size: 1.25rem;
+  }
 }

@@ -1,9 +1,10 @@
 .contacts {
+  width: 300px;
   line-height: 1.5;
   text-align: left;
   margin: auto;
-  /* max-width: 41rem; */
   list-style-type: none;
-  /* text-indent: -2rem;
-  list-style-position: outside; */
+  padding: 0 auto;
+  padding-inline-start: 0;
+  font-weight: 600;
 }
