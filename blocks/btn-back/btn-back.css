@@ -3,7 +3,6 @@
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
-  color: #fff;
   padding: 10px;
   max-width: 150px;
   text-decoration: none;
@@ -12,8 +11,6 @@
 }
 
 .btn-back:hover {
-  color: #1d0e0e;
+  color: var(--main-color);
   /* Цвет текста */
-  background: #f66d52;
-  /* Цвет фона */
 }

@@ -22,7 +22,7 @@ function Sim(sldrId) {
 Sim.defaults = {
   // Default options for the slider
   loop: true, // Бесконечное зацикливание слайдера
-  auto: true, // Автоматическое пролистывание
+  auto: false, // Автоматическое пролистывание
   interval: 5000, // Интервал между пролистыванием элементов (мс)
   arrows: true, // Пролистывание стрелками
   dots: true, // Индикаторные точки
