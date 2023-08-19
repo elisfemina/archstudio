@@ -29,9 +29,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
-@import url(../blocks/lead/__figure/lead__figure.css);
-@import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__name/lead__name.css);
 
 /* Секция портфолио */
 @import url(../blocks/portfolio/portfolio.css);
@@ -39,6 +37,7 @@
 @import url(../blocks/portfolio/__subtitle/portfolio__subtitle.css);
 @import url(../blocks/portfolio-nav/portfolio-nav.css);
 @import url(../blocks/portfolio-nav/__item/portfolio-nav__item.css);
+@import url(../blocks/portfolio-nav/__link/portfolio-nav__link.css);
 
 /* Секция photo-grid  */
 @import url(../blocks/photo-grid/photo-grid.css);

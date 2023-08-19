@@ -1,0 +1,8 @@
+.lead__name {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 1rem;
+  color: var(--main-color);
+}
