@@ -1,6 +1,6 @@
 .portfolio-nav__link {
   display: grid;
-  min-height: 30px;
+  min-height: 50px;
   text-align: center;
   place-items: center;
   color: #000;
