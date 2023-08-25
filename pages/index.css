@@ -58,6 +58,10 @@
 @import url(../blocks/project/project.css);
 @import url(../blocks/project/__text/project__text.css);
 
+/* Секция about */
+@import url(../blocks/about/about.css);
+
+
 /* footer  */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
